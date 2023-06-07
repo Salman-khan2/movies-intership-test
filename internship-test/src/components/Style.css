@@ -1,0 +1,50 @@
+.body{
+  background-color: red;
+}
+.movies-list{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+  justify-content: center;
+}
+.box{
+  background-color: #576574;
+  width:20rem;
+  height: 20rem;
+  margin: 1rem;
+  position: relative;
+}
+.heading{
+  display: flex;
+  justify-content: center;
+}
+
+.image{
+  width: 20rem;
+  height: 15rem;
+}
+.genras{
+  position: absolute;
+  top: 13.5rem;
+  color:black;
+ 
+}
+.movies-name{
+  
+  color: black;
+}
+
+.button{
+  position: absolute;
+  top: 18rem;
+  width: 20rem;
+  height: 2rem;
+  background-color: #576574;
+  
+}
+.anchor{
+  text-decoration: none;
+  font-size: large;
+  color: #61dafb;
+  font-weight: bold;
+}
